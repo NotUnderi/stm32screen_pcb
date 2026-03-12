@@ -459,7 +459,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -596,7 +596,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Viite"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -651,11 +651,7 @@
   "sheets": [
     [
       "dd9634c9-b7ae-401f-800b-241ca4b8e751",
-      "Root"
-    ],
-    [
-      "3a01ac70-5a08-4ba3-bd5e-aa516d4903e2",
-      "EGT_pcb"
+      ""
     ]
   ],
   "text_variables": {}
