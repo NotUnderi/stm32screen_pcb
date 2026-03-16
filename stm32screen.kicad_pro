@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/henrik/Asiakirjat/KiCad/stm32screen/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -651,7 +651,11 @@
   "sheets": [
     [
       "dd9634c9-b7ae-401f-800b-241ca4b8e751",
-      ""
+      "Root"
+    ],
+    [
+      "3a01ac70-5a08-4ba3-bd5e-aa516d4903e2",
+      "EGT_pcb"
     ]
   ],
   "text_variables": {}
