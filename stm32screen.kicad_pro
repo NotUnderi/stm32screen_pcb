@@ -519,7 +519,7 @@
       "plot": "/home/henrik/Asiakirjat/KiCad/stm32screen/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "stm32screen.step",
       "svg": "",
       "vrml": ""
     },
