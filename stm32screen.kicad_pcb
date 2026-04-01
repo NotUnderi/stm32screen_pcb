@@ -457,6 +457,7 @@
 		(property "Reference" "J5"
 			(at 1.25 -3.550001 80)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98c6a1c3-3e91-449b-8679-569760e3cc81")
 			(effects
 				(font
@@ -6080,6 +6081,7 @@
 		(property "Reference" "U2"
 			(at 0 9.42 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "0268f13d-ba72-495c-b514-0ec20c35d141")
 			(effects
 				(font
@@ -6090,7 +6092,7 @@
 			)
 		)
 		(property "Value" "STM32F407VETx"
-			(at 0.095 11.21 180)
+			(at 0.1712 9.7368 180)
 			(layer "B.SilkS")
 			(uuid "70392c5c-f84b-4cf5-88d7-71be6d91d02f")
 			(effects
@@ -7544,7 +7546,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 0.9886 5.1232 0)
+			(at 2.934793 3.476725 0)
 			(layer "B.SilkS")
 			(uuid "a47c1ca7-96cc-41c4-8b18-1d6bb9ed358d")
 			(effects
@@ -10686,7 +10688,7 @@
 		(descr "Resistor SMD 1218 (3246 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -3.8891 0.3642 45)
+			(at -0.215526 3.556181 135)
 			(layer "B.SilkS")
 			(uuid "3de7eca8-0292-44f1-b712-535140880530")
 			(effects
