@@ -5852,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "NRST"
 			(at 29.21 29.21 0)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "FUSE"
 			(at 179.07 86.3599 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "USER"
 			(at 23.495 87.63 0)
 			(effects
 				(font
