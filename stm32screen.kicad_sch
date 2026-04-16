@@ -5992,7 +5992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 34.29 47.9552 0)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 34.29 45.4152 0)
 			(effects
 				(font
@@ -8168,7 +8168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "pressure sensor"
+		(property "Value" "PRESS"
 			(at 140.97 154.9399 0)
 			(effects
 				(font
@@ -8370,7 +8370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Oil temp sensor"
+		(property "Value" "OIL"
 			(at 140.97 126.9999 0)
 			(effects
 				(font
@@ -9274,7 +9274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 26.3652 185.42 0)
 			(effects
 				(font
@@ -9540,7 +9540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100uF"
 			(at 44.45 181.9909 0)
 			(effects
 				(font
@@ -9549,7 +9549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 41.6052 185.42 0)
 			(effects
 				(font

@@ -1562,7 +1562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EGT_sensor"
+		(property "Value" "EGT"
 			(at 168.91 100.3299 0)
 			(effects
 				(font
