@@ -7908,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "160"
 			(at 134.62 68.58 90)
 			(effects
 				(font
@@ -8049,7 +8049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.71 180.848 90)
 			(effects
 				(font
