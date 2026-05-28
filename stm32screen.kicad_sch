@@ -518,7 +518,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -534,8 +534,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -560,7 +560,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -587,10 +587,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x07_1_1"
 				(rectangle
 					(start -1.27 8.89)
-					(end 1.27 -11.43)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -668,17 +668,6 @@
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -806,24 +795,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4402,6 +4373,14 @@
 		(color 0 0 0 0)
 		(uuid "fb18cf45-8d91-4f0f-a971-e08e6bf7fb19")
 	)
+	(no_connect
+		(at 200.66 91.44)
+		(uuid "77831ace-a00b-4196-9156-843db133b92a")
+	)
+	(no_connect
+		(at 200.66 93.98)
+		(uuid "8ca324a5-42a3-44f8-a40a-cde12e714fff")
+	)
 	(wire
 		(pts
 			(xy 69.85 26.67) (xy 72.39 26.67)
@@ -7060,7 +7039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
+		(lib_id "Connector_Generic:Conn_01x07")
 		(at 137.16 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7070,7 +7049,7 @@
 		(fields_autoplaced yes)
 		(uuid "542046d4-efa2-4d11-9579-cbd2ac93de59")
 		(property "Reference" "J2"
-			(at 139.7 97.7899 0)
+			(at 139.7 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7058,7 @@
 			)
 		)
 		(property "Value" "GC9A01"
-			(at 139.7 100.3299 0)
+			(at 139.7 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,12 +7084,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7133,9 +7113,6 @@
 		)
 		(pin "7"
 			(uuid "f454c9e1-8952-418c-903b-6eddd952099a")
-		)
-		(pin "8"
-			(uuid "ba47af79-60ce-4b47-bb67-c3e3b1d42628")
 		)
 		(instances
 			(project ""

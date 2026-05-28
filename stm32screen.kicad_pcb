@@ -4972,7 +4972,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "unconnected-(D1-K-Pad2)")
 			(pinfunction "K")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "72c603e0-0eb5-4aba-b7ef-24b1faa3ffe7")
 		)
 		(pad "3" smd rect
@@ -4981,7 +4981,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "unconnected-(D1-K-Pad3)")
 			(pinfunction "K")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a2bc6d19-994d-47df-92b6-533a0aefcb2c")
 		)
 		(pad "4" smd rect
@@ -6167,7 +6167,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10056,7 +10056,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWR\n5V"
+	(gr_text "PWR\n12V"
 		(at 142.6972 71.0438 0)
 		(layer "F.SilkS")
 		(uuid "b4922e49-3cd7-48e0-be00-c651d56b8adf")
