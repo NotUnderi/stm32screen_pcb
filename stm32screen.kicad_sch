@@ -1561,6 +1561,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:Z2SMBxxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Z2SMBxxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z2smb1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2000mW Zener Diode, SMB(DO-214AA)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SMB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Z2SMBxxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Z2SMBxxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -3547,335 +3696,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:SP0503BAHT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.715 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SP0503BAHT"
-				(at 5.715 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-				(at 5.715 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb esd protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?143*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SP0503BAHT_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SP0503BAHT_0_1"
-				(rectangle
-					(start -4.445 2.54)
-					(end 4.445 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP0503BAHT_1_1"
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(pin_names
 				(offset 0.254)
@@ -4278,6 +4098,12 @@
 		(uuid "1bfb1b30-2f7b-49ca-86af-a8c446a5c781")
 	)
 	(junction
+		(at 167.64 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c78aef-18ab-4c46-9cd9-17f3801baae3")
+	)
+	(junction
 		(at 64.77 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4356,12 +4182,6 @@
 		(uuid "c5d4a110-b27b-42f1-9082-673495773d53")
 	)
 	(junction
-		(at 176.53 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df474738-6cfb-4925-a4ba-e43bbbdc4c46")
-	)
-	(junction
 		(at 92.71 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4372,14 +4192,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb18cf45-8d91-4f0f-a971-e08e6bf7fb19")
-	)
-	(no_connect
-		(at 200.66 91.44)
-		(uuid "77831ace-a00b-4196-9156-843db133b92a")
-	)
-	(no_connect
-		(at 200.66 93.98)
-		(uuid "8ca324a5-42a3-44f8-a40a-cde12e714fff")
 	)
 	(wire
 		(pts
@@ -4933,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf460ac-9c8f-466e-9e50-0d6c2e795276")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 129.54 48.26)
 		)
 		(stroke
@@ -5003,16 +4825,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 167.64 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb87f9c8-4486-44b6-b053-902f6209d07f")
-	)
-	(wire
-		(pts
 			(xy 88.9 119.38) (xy 161.29 119.38)
 		)
 		(stroke
@@ -5020,16 +4832,6 @@
 			(type default)
 		)
 		(uuid "cb928deb-519e-4412-a8da-b2643926c5e1")
-	)
-	(wire
-		(pts
-			(xy 176.53 88.9) (xy 200.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d066aca6-4fed-4632-8a81-6b57fa641df2")
 	)
 	(wire
 		(pts
@@ -5060,16 +4862,6 @@
 			(type default)
 		)
 		(uuid "dbed54cc-3337-4de1-a9ed-0502fcb326af")
-	)
-	(wire
-		(pts
-			(xy 167.64 88.9) (xy 167.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd76f20-d803-45cc-9fb2-f79ff7f7093e")
 	)
 	(wire
 		(pts
@@ -5694,7 +5486,7 @@
 	)
 	(global_label "Vin"
 		(shape input)
-		(at 176.53 81.28 0)
+		(at 167.64 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5704,7 +5496,7 @@
 		)
 		(uuid "af3b65c5-1773-41c4-bf2a-4d6faff954ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 81.28 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5505,7 @@
 			)
 		)
 		(property "Välilehtien väliset viitteet" "${INTERSHEET_REFS}"
-			(at 181.7855 81.2006 0)
+			(at 172.8955 82.4706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +5743,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 104.14 179.07 90)
+		(at 104.14 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5960,7 +5752,7 @@
 		(fields_autoplaced yes)
 		(uuid "03a793fc-ec49-4a6f-852e-b36ad60d63dd")
 		(property "Reference" "#PWR019"
-			(at 110.49 179.07 0)
+			(at 104.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,12 +5761,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 179.0699 90)
+			(at 104.14 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6780,10 +6571,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a6a159f-c835-4698-b732-f7de5a53f561")
 		(property "Reference" "C13"
-			(at 78.74 21.5899 0)
+			(at 68.326 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6582,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 78.74 24.1299 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,16 +6700,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 91.44 0)
+		(at 184.15 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5117ea7c-de1f-4edd-a2c7-e54b6ed4e132")
 		(property "Reference" "#PWR0101"
-			(at 210.82 97.79 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 96.52 0)
+			(at 184.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 91.44 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +6735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 91.44 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +6744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 91.44 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,80 +6973,6 @@
 			(project ""
 				(path "/dd9634c9-b7ae-401f-800b-241ca4b8e751"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:SP0503BAHT")
-		(at 205.74 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69e4b522-2222-4410-af3c-1934805a23c4")
-		(property "Reference" "D1"
-			(at 205.74 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SP0503BAHT"
-			(at 205.74 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 207.01 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-			(at 202.565 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37c9a9dc-3fbb-4dc6-9539-83405b04042a")
-		)
-		(pin "2"
-			(uuid "db5c8586-9e58-4bce-ae39-251ce81df7ad")
-		)
-		(pin "3"
-			(uuid "be107188-5aea-4846-86be-92e92d6203b1")
-		)
-		(pin "4"
-			(uuid "0fc0517d-49c8-4d79-8bfd-bec497afc219")
-		)
-		(instances
-			(project ""
-				(path "/dd9634c9-b7ae-401f-800b-241ca4b8e751"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7600,7 +7316,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 176.53 85.09 180)
+		(at 167.64 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +7325,7 @@
 		(fields_autoplaced yes)
 		(uuid "76133953-87a1-4d88-a32c-2e466895d947")
 		(property "Reference" "F1"
-			(at 179.07 83.8199 0)
+			(at 170.18 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7334,7 @@
 			)
 		)
 		(property "Value" "FUSE"
-			(at 179.07 86.3599 0)
+			(at 170.18 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7343,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 175.26 80.01 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7637,7 +7353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 85.09 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 85.09 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,6 +8945,74 @@
 			(project ""
 				(path "/dd9634c9-b7ae-401f-800b-241ca4b8e751"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:Z2SMBxxx")
+		(at 180.34 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad68d7b-3000-4ccc-a3f5-d1c4d66f769f")
+		(property "Reference" "D3"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMBJ24A"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 180.34 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z2smb1.pdf"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2000mW Zener Diode, SMB(DO-214AA)"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68331e76-040a-4925-bcf4-052de7c4ace4")
+		)
+		(pin "2"
+			(uuid "24e40a18-b412-4d23-8200-34d3ecec269f")
+		)
+		(instances
+			(project ""
+				(path "/dd9634c9-b7ae-401f-800b-241ca4b8e751"
+					(reference "D3")
 					(unit 1)
 				)
 			)
