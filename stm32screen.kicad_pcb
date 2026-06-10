@@ -144,7 +144,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/henrik/Asiakirjat/KiCad/stm32screen/gerbers/")
+			(outputdirectory "./gerbers")
 		)
 	)
 	(net 0 "")

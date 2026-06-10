@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/henrik/Asiakirjat/KiCad/stm32screen/gerbers/",
+      "plot": "./gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
